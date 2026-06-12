@@ -14,7 +14,8 @@ A full-stack task management application: Java 17 / Spring Boot REST API with st
 - **PostgreSQL + JPA/Hibernate** — entities mapped with Spring Data JPA
 - **API documentation** — interactive Swagger UI via springdoc-openapi
 - **Tested** — JUnit 5 + Mockito unit tests, H2 in-memory database for integration tests
-- **CI/CD** — GitHub Actions tests every push; Railway auto-deploys `main` (see [DEPLOYMENT.md](DEPLOYMENT.md))
+- **CI** — GitHub Actions builds and tests every push
+- **Deployment-ready** — all config via environment variables; step-by-step Railway guide in [DEPLOYMENT.md](DEPLOYMENT.md)
 
 ## Tech stack
 
